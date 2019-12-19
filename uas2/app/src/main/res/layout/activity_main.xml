@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="com.example.uas2.Main2Activity">
+
+
+    <ScrollView
+        android:id="@+id/tv_long"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="136dp"
+                android:layout_height="146dp"
+
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BEST"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:textSize="70dp"
+                android:textColor="#99ccff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BURGER"
+                android:textColor="#99ccff"
+                android:layout_marginLeft="150dp"
+                android:textSize="50dp"
+                android:layout_marginTop="100dp"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gb1"
+                android:layout_marginTop="250dp"/>
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="240dp"
+                android:text="Lauwless Burger Bar"
+                android:textColor="#99ccff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buton1"
+                android:layout_width="105dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="290dp"
+                android:background="#cc3300"
+                android:text="View Detail"
+                android:textColor="#99ccff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gb2"
+                android:layout_marginTop="460dp"/>
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="460dp"
+                android:text=" Flip Burger"
+                android:textColor="#99ccff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buton2"
+                android:layout_width="105dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="519dp"
+                android:background="#cc3300"
+                android:text="View Detail"
+                android:textColor="#99ccff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gb3"
+                android:layout_marginTop="670dp"/>
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="670dp"
+                android:text="Three Buns Senopati"
+                android:textColor="#99ccff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buton3"
+                android:layout_width="105dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="725dp"
+                android:background="#cc3300"
+                android:text="View Detail"
+                android:textColor="#99ccff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/gb4"
+                android:layout_marginTop="880dp"/>
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="890dp"
+                android:text="Three Buns Senopati"
+                android:textColor="#99ccff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buton4"
+                android:layout_width="105dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="940dp"
+                android:background="#cc3300"
+                android:text="View Detail"
+                android:textColor="#99ccff"
+                android:textSize="15dp" />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
